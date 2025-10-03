@@ -1,0 +1,26 @@
+{
+    "name": "union-tools",
+    "version": "1.0.0",
+    "description": "Union区块链跨链工具",
+    "main": "cli.js",
+    "scripts": {
+        "start": "node cli.js",
+        "faucet": "node faucet.js"
+    },
+    "dependencies": {
+        "@cosmjs/proto-signing": "^0.32.0",
+        "@cosmjs/stargate": "^0.32.0",
+        "@cosmjs/cosmwasm-stargate": "^0.32.0",
+        "axios": "^1.9.0",
+        "ethers": "^6.9.0",
+        "https-proxy-agent": "^7.0.2",
+        "moment-timezone": "^0.5.43",
+        "node-cron": "^3.0.3",
+        "random-useragent": "^0.5.0",
+        "readline": "^1.3.0",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.3.1"
+    },
+    "author": "",
+    "license": "ISC"
+}
